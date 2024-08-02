@@ -1,59 +1,12 @@
-import { useState } from 'react'
 import './global.css'
+import Home from './pages/Home.tsx'
+import MainLayout from './layouts/MainLayout.tsx'
 
 function App() {
-  const [results, setResults] = useState([])
-  const [search, setSearch] = useState('')
-
   return (
-    <>
-      <h2>Country search</h2>
-      <input
-        type="text"
-        placeholder="Search..."
-        onChange={(event) => {
-          setSearch(event.target.value)
-        }}
-        style={{
-          padding: '8px',
-          border: '1px solid black'
-        }}
-      />
-      <button
-        onClick={() => {
-          fetch(`https://restcountries.com/v3.1/name/${search}`)
-            .then((res) => res.json())
-            .then((data) => setResults(data))
-        }}
-        style={{
-          display: 'inline-block',
-          padding: '8px',
-          margin: '8px',
-          border: '1px solid black',
-          cursor: 'pointer'
-        }}
-      >
-        Search
-      </button>
-
-      <div>
-        {results.map(
-          (x: {
-            name: { official: string }
-            flag: string
-            capital: string
-          }) => {
-            return (
-              <div>
-                {x.flag} {x.name.official}
-                <br />
-                Capital: {x.capital}
-              </div>
-            )
-          }
-        )}
-      </div>
-    </>
+    <MainLayout>
+      <Home />
+    </MainLayout>
   )
 }
 
