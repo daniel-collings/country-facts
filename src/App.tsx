@@ -1,8 +1,8 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
+import "./global.css"
 
 function App() {
-  const [results, setResults] = useState<any>([]);
+  const [results, setResults] = useState([]);
   const [search, setSearch] = useState("");
 
   return (
@@ -37,7 +37,7 @@ function App() {
       </div>
 
       <div>
-        {results.map((x: any) => {
+        {results.map((x: { name: { official: string }, flag: string, capital: string}) => {
           return (
             <div>
               {x.flag} {x.name.official}
