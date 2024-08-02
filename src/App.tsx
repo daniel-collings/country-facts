@@ -1,9 +1,9 @@
-import { useState } from "react";
-import "./global.css"
+import { useState } from 'react'
+import './global.css'
 
 function App() {
-  const [results, setResults] = useState([]);
-  const [search, setSearch] = useState("");
+  const [results, setResults] = useState([])
+  const [search, setSearch] = useState('')
 
   return (
     <>
@@ -12,43 +12,49 @@ function App() {
         type="text"
         placeholder="Search..."
         onChange={(event) => {
-          setSearch(event.target.value);
+          setSearch(event.target.value)
         }}
         style={{
-          padding: "8px",
-          border: "1px solid black",
+          padding: '8px',
+          border: '1px solid black'
         }}
       />
-      <div
+      <button
         onClick={() => {
           fetch(`https://restcountries.com/v3.1/name/${search}`)
             .then((res) => res.json())
-            .then((data) => setResults(data));
+            .then((data) => setResults(data))
         }}
         style={{
-          display: "inline-block",
-          padding: "8px",
-          margin: "8px",
-          border: "1px solid black",
-          cursor: "pointer",
+          display: 'inline-block',
+          padding: '8px',
+          margin: '8px',
+          border: '1px solid black',
+          cursor: 'pointer'
         }}
       >
         Search
-      </div>
+      </button>
 
       <div>
-        {results.map((x: { name: { official: string }, flag: string, capital: string}) => {
-          return (
-            <div>
-              {x.flag} {x.name.official}
-              <br />
-              Capital: {x.capital}
-            </div>
-          );
-        })}
+        {results.map(
+          (x: {
+            name: { official: string }
+            flag: string
+            capital: string
+          }) => {
+            return (
+              <div>
+                {x.flag} {x.name.official}
+                <br />
+                Capital: {x.capital}
+              </div>
+            )
+          }
+        )}
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
