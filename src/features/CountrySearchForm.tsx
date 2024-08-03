@@ -1,4 +1,5 @@
 import { FormEvent } from 'react'
+import { MagnifyingGlassCircleIcon } from '@heroicons/react/24/solid'
 
 interface ICountrySearchForm {
   search: string
@@ -24,18 +25,21 @@ export default function CountrySearchForm({
       onSubmit={fetchCountryData}
       className="grid grid-flow-row max-w-96 gap-4"
     >
-      <input
-        type="text"
-        required
-        className="input input-bordered"
-        placeholder="Search..."
-        onChange={(event) => {
-          setSearch(event.target.value)
-        }}
-      />
-      <button className="btn btn-sm btn-primary" type="submit">
-        Search
-      </button>
+      <label className="input input-sm input-bordered flex justify-between items-center pr-0">
+        <input
+          type="text"
+          required
+          minLength={3}
+          placeholder="Search..."
+          onChange={(event) => {
+            setSearch(event.target.value)
+          }}
+        />
+        <button className="btn btn-sm btn-primary h-full w-auto" type="submit">
+          Search
+          <MagnifyingGlassCircleIcon className="h-8 w-8" />
+        </button>
+      </label>
     </form>
   )
 }
