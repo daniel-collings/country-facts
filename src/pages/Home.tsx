@@ -6,7 +6,7 @@ export default function Home() {
   const [search, setSearch] = useState('')
 
   return (
-    <div data-theme="light">
+    <div>
       <h2>Country search</h2>
       <CountrySearchInput
         search={search}
