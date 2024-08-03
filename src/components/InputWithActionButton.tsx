@@ -14,7 +14,6 @@ export default function InputWithActionButton({
   inputSize = 'md',
   ...props
 }: IInputWithActionButton) {
-  console.log(props)
   return (
     <label
       className={`input input-${inputSize} input-bordered flex justify-between items-center pr-0`}
