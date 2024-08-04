@@ -7,8 +7,8 @@
     "dev": "vite",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx --fix",
-    "format:check": "prettier --check \"src/**/*.{js,ts,tsx,css}\"",
-    "format:fix": "prettier --write \"src/**/*.{js,ts,tsx,css}\"",
+    "format:check": "prettier --check \"./**/*.{js,ts,tsx,css}\"",
+    "format:fix": "prettier --write \"./**/*.{js,ts,tsx,css}\"",
     "prepare": "husky",
     "build": "vite build",
     "preview": "vite preview"
