@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
-import countries from './countries.tsx'
+import countries from '@/routes/countries.tsx'
 
 const router = createBrowserRouter([...countries])
 

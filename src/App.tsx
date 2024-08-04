@@ -1,8 +1,7 @@
-import './global.css'
-import MainLayout from './layouts/MainLayout.tsx'
 import { RouterProvider } from 'react-router-dom'
-import router from './routes/router.ts'
 import React from 'react'
+import MainLayout from '@/layouts/MainLayout.tsx'
+import router from '@/routes/router.ts'
 
 function App() {
   return (
