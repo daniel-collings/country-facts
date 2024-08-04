@@ -1,24 +1,25 @@
-import { FormEvent } from 'react'
+import { FormEvent, useState } from 'react'
 import { MagnifyingGlassCircleIcon } from '@heroicons/react/24/solid'
-import InputWithActionButton from '../components/InputWithActionButton.tsx'
+import InputWithActionButton from '@/components/InputWithActionButton.tsx'
+import { fetchCountries } from '@/services/countries.ts'
 
 interface ICountrySearchForm {
-  search: string
-  setSearch: (value: ((prevState: string) => string) | string) => void
   setResults: (value: ((prevState: []) => []) | []) => void
 }
 
-export default function CountrySearchForm({
-  search,
-  setSearch,
-  setResults
-}: ICountrySearchForm) {
+export default function CountrySearchForm({ setResults }: ICountrySearchForm) {
+  const [searchValue, setSearchValue] = useState<string>()
+
   const fetchCountryData = async (e: FormEvent) => {
     e.preventDefault()
 
-    return await fetch(`https://restcountries.com/v3.1/name/${search}`)
-      .then((res) => res.json())
-      .then((data) => setResults(data))
+    if (!searchValue || searchValue.trim() === '') {
+      throw new Error('search is undefined')
+    }
+
+    return await fetchCountries(searchValue).then((data: unknown) => {
+      setResults(data as [])
+    })
   }
 
   return (
@@ -27,12 +28,13 @@ export default function CountrySearchForm({
       className="grid grid-flow-row max-w-96 gap-4"
     >
       <InputWithActionButton
+        value={searchValue}
+        onChange={(e) => {
+          setSearchValue(e.target.value as string)
+        }}
         required={true}
         minLength={3}
         placeholder="Search..."
-        onChange={(event) => {
-          setSearch(event.target.value)
-        }}
         button={{
           label: 'Search',
           icon: <MagnifyingGlassCircleIcon className="h-8 w-8" />,
