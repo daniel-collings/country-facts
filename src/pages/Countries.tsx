@@ -6,7 +6,7 @@ export default function Countries() {
   const [searchCountryList, setSearchCountryList] = useState<string>()
 
   return (
-    <div className="container">
+    <div className="space-y-4">
       <input
         type="text"
         placeholder="Search..."
@@ -15,58 +15,57 @@ export default function Countries() {
           setSearchCountryList(e.target.value)
         }}
       />
-      <table className="table table-striped">
-        <thead>
-          <tr>
-            <td>Country</td>
-            <td>Flag</td>
-            <td>Continent</td>
-          </tr>
-        </thead>
-        <tbody>
-          {countriesData
-            .filter(
-              (f) =>
-                f.name.common
-                  .toLowerCase()
-                  .includes(searchCountryList?.toLowerCase()) ||
-                !searchCountryList ||
-                f.flag === searchCountryList ||
-                f.continents.some((continent) =>
-                  continent
+      <div className="block h-96 overflow-auto overflow-x-auto">
+        <table className="table table-sm table-pin-rows">
+          <thead>
+            <tr>
+              <td>Country</td>
+              <td>Flag</td>
+              <td>Continent</td>
+            </tr>
+          </thead>
+          <tbody>
+            {countriesData
+              .filter(
+                (f) =>
+                  f.name.common
                     .toLowerCase()
-                    .includes(searchCountryList?.toLowerCase())
-                )
-            )
-            .map((country, i) => (
-              <tr key={i}>
-                <td>
-                  <Link
-                    to={`/countries/${encodeURIComponent(country.name.common)}`}
-                  >
-                    {country.name.common}{' '}
-                  </Link>
-                </td>
-                <td>
-                  <Link
-                    to={`/countries/${encodeURIComponent(country.name.common)}`}
-                  >
-                    {country.flag}{' '}
-                  </Link>
-                </td>
-                <td>
-                  <Link
-                    to={`/countries/${encodeURIComponent(country.name.common)}`}
-                  >
-                    {country.continents.map((continent, i) => (
-                      <td key={`${country.area}_${i}`}>{continent}</td>
-                    ))}
-                  </Link>
-                </td>
-              </tr>
-            ))}
-        </tbody>
-      </table>
+                    .includes(searchCountryList?.toLowerCase()) ||
+                  !searchCountryList ||
+                  f.flag === searchCountryList ||
+                  f.continents.some((continent) =>
+                    continent
+                      .toLowerCase()
+                      .includes(searchCountryList?.toLowerCase())
+                  )
+              )
+              .map((country, i) => (
+                <tr key={i} className="hover">
+                  <td>
+                    <Link
+                      to={`/countries/${encodeURIComponent(country.name.common)}`}
+                    >
+                      {country.name.common}{' '}
+                    </Link>
+                  </td>
+                  <td className="text-center sm:text-left">
+                    <Link
+                      to={`/countries/${encodeURIComponent(country.name.common)}`}
+                    >
+                      {country.flag}{' '}
+                    </Link>
+                  </td>
+                  <td className="text-wrap">
+                    {country.continents.reduce(
+                      (p, c, i) => p + (i > 0 ? `, ${c}` : c),
+                      ''
+                    )}
+                  </td>
+                </tr>
+              ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
