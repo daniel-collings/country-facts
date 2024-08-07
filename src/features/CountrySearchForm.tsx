@@ -1,10 +1,11 @@
-import { FormEvent, useState } from 'react'
+import { Dispatch, FormEvent, SetStateAction, useState } from 'react'
 import { MagnifyingGlassCircleIcon } from '@heroicons/react/24/solid'
 import InputWithActionButton from '@/components/InputWithActionButton.tsx'
 import { fetchCountries } from '@/services/countries.ts'
+import { SearchRecordType } from '@/pages/Home.tsx'
 
 interface ICountrySearchForm {
-  setResults: (value: ((prevState: []) => []) | []) => void
+  setResults: Dispatch<SetStateAction<SearchRecordType | undefined>>
 }
 
 export default function CountrySearchForm({ setResults }: ICountrySearchForm) {
@@ -17,8 +18,8 @@ export default function CountrySearchForm({ setResults }: ICountrySearchForm) {
       throw new Error('search is undefined')
     }
 
-    return await fetchCountries(searchValue).then((data: unknown) => {
-      setResults(data as [])
+    return await fetchCountries(searchValue).then((data) => {
+      setResults(data)
     })
   }
 
