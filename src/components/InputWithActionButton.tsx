@@ -11,20 +11,16 @@ interface IInputWithActionButton extends InputHTMLAttributes<HTMLInputElement> {
 
 export default function InputWithActionButton({
   button,
-  inputSize = 'md',
   ...props
 }: IInputWithActionButton) {
   return (
     <label
-      className={`input input-${inputSize} input-bordered flex justify-between items-center pr-0`}
+      className={`input input-sm contents sm:flex sm:input-md input-bordered justify-between items-center pr-0 sm:pr-0`}
     >
       <input {...props} type="text" />
-      <button
-        className={`btn btn-${inputSize} ${button.theme} h-full w-auto`}
-        type="submit"
-      >
+      <button className={`btn btn-sm sm:btn-md ${button.theme} `} type="submit">
         {button.label}
-        {button.icon}
+        <div className="hidden sm:block"> {button.icon}</div>
       </button>
     </label>
   )
