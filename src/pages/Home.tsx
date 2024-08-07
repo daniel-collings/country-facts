@@ -23,7 +23,7 @@ export default function Home() {
     if (currentQuery !== searchValue) {
       setSearchValue(currentQuery || '')
     }
-  }, [searchParams])
+  }, [searchParams, searchValue])
 
   const handleSearch = (value: string) => {
     setSearchParams({ searchQuery: value })
