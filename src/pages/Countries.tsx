@@ -6,7 +6,7 @@ export default function Countries() {
   const [searchCountryList, setSearchCountryList] = useState<string>()
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 bg-base-200 rounded-xl p-8">
       <input
         type="text"
         placeholder="Search..."
@@ -29,6 +29,9 @@ export default function Countries() {
               .filter(
                 (f) =>
                   f.name.common
+                    .toLowerCase()
+                    .includes(searchCountryList?.toLowerCase()) ||
+                  f.name.official
                     .toLowerCase()
                     .includes(searchCountryList?.toLowerCase()) ||
                   !searchCountryList ||

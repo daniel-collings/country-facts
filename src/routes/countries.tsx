@@ -2,21 +2,34 @@ import { IRoute } from '@/routes/types.ts'
 import Home from '@/pages/Home.tsx'
 import Countries from '@/pages/Countries.tsx'
 import CountryDetail from '@/pages/CountryDetail.tsx'
+import LayoutWithNav from '@/layouts/LayoutWithNav.tsx'
 
 const countries: IRoute[] = [
   {
     label: 'Home',
     path: '/',
-    element: <Home />
+    element: (
+      <LayoutWithNav>
+        <Home />
+      </LayoutWithNav>
+    )
   },
   {
     label: 'Countries',
     path: '/countries',
-    element: <Countries />
+    element: (
+      <LayoutWithNav>
+        <Countries />
+      </LayoutWithNav>
+    )
   },
   {
     path: '/countries/:countryId',
-    element: <CountryDetail />
+    element: (
+      <LayoutWithNav>
+        <CountryDetail />
+      </LayoutWithNav>
+    )
   }
 ]
 
