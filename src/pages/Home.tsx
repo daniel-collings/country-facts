@@ -3,6 +3,7 @@ import CountrySearchForm from '@/features/CountrySearchForm.tsx'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { fetchCountries } from '@/services/countries.ts'
+import PageHeader from '@/components/PageHeader.tsx'
 
 export default function Home() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -22,72 +23,84 @@ export default function Home() {
     if (currentQuery !== searchValue) {
       setSearchValue(currentQuery || '')
     }
-  }, [searchParams])
+  }, [searchParams, searchValue])
 
   const handleSearch = (value: string) => {
     setSearchParams({ searchQuery: value })
   }
 
   return (
-    <div className="space-y-4 bg-base-200 rounded-xl p-8">
-      <h2>Country search</h2>
-      <p>
-        Search for a specific country believe or browse{' '}
-        <Link to="/countries" className="underline text-primary">
-          all countries
-        </Link>{' '}
-        with smart filtering on country common name, official name, continent
-        and even by emoji flags! 🇳🇵 .
-      </p>
-      <CountrySearchForm searchValue={searchValue} onSubmit={handleSearch} />
+    <div>
+      <PageHeader
+        title="Country Facts"
+        subtitle="Your friendly web based Geo Explorer 🌍"
+      />
+      <div className="space-y-4 bg-base-200 rounded-xl p-8">
+        <p>
+          Search for a specific country believe or browse{' '}
+          <Link to="/countries" className="underline text-primary">
+            all countries
+          </Link>{' '}
+          with smart filtering on country common name, official name, continent
+          and even by emoji flags! 🇳🇵 .
+        </p>
+        <CountrySearchForm searchValue={searchValue} onSubmit={handleSearch} />
 
-      {isLoading && <div className="loading-bars loading-lg" />}
-      {isError && <p>{(error as Error).message}</p>}
+        {isLoading && <div className="loading-bars loading-lg" />}
+        {isError && <p>{(error as Error).message}</p>}
 
-      {Array.isArray(data) && data.length > 0 && (
-        <div className="block h-96 overflow-x-auto">
-          <table className="table table-sm table-pin-rows">
-            <thead>
-              <tr>
-                <td>Country</td>
-                <td>Capital</td>
-                <td>Flag</td>
-                <td>Continent</td>
-              </tr>
-            </thead>
-            <tbody>
-              {data.map(({ name, capital, flag, continents }, i) => (
-                <tr key={i} className="hover">
-                  <td>
-                    <Link to={`/countries/${encodeURIComponent(name.common)}`}>
-                      {name.common}{' '}
-                    </Link>
-                  </td>
-                  <td>
-                    <Link to={`/countries/${encodeURIComponent(name.common)}`}>
-                      {capital?.reduce(
+        {Array.isArray(data) && data.length > 0 && (
+          <div className="block h-96 overflow-auto border-b border-base-content">
+            <table className="table table-sm table-pin-rows">
+              <thead>
+                <tr>
+                  <td>Country</td>
+                  <td>Capital</td>
+                  <td>Flag</td>
+                  <td>Continent</td>
+                </tr>
+              </thead>
+              <tbody>
+                {data.map(({ name, capital, flag, continents }, i) => (
+                  <tr key={i}>
+                    <td>
+                      <Link
+                        className="hover:text-primary hover:underline"
+                        to={`/countries/${encodeURIComponent(name.common)}`}
+                      >
+                        {name.common}{' '}
+                      </Link>
+                    </td>
+                    <td>
+                      <Link
+                        to={`/countries/${encodeURIComponent(name.common)}`}
+                      >
+                        {capital?.reduce(
+                          (p, c, i) => p + (i > 0 ? `, ${c}` : c),
+                          ''
+                        )}
+                      </Link>
+                    </td>
+                    <td className="text-center sm:text-left">
+                      <Link
+                        to={`/countries/${encodeURIComponent(name.common)}`}
+                      >
+                        {flag as string}{' '}
+                      </Link>
+                    </td>
+                    <td className="text-wrap">
+                      {continents.reduce(
                         (p, c, i) => p + (i > 0 ? `, ${c}` : c),
                         ''
                       )}
-                    </Link>
-                  </td>
-                  <td className="text-center sm:text-left">
-                    <Link to={`/countries/${encodeURIComponent(name.common)}`}>
-                      {flag as string}{' '}
-                    </Link>
-                  </td>
-                  <td className="text-wrap">
-                    {continents.reduce(
-                      (p, c, i) => p + (i > 0 ? `, ${c}` : c),
-                      ''
-                    )}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
     </div>
   )
 }
