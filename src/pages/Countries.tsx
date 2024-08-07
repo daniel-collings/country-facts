@@ -31,6 +31,9 @@ export default function Countries() {
                   f.name.common
                     .toLowerCase()
                     .includes(searchCountryList?.toLowerCase()) ||
+                  f.name.official
+                    .toLowerCase()
+                    .includes(searchCountryList?.toLowerCase()) ||
                   !searchCountryList ||
                   f.flag === searchCountryList ||
                   f.continents.some((continent) =>
