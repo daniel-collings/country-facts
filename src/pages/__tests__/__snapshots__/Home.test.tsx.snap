@@ -20,6 +20,7 @@ exports[`Home Component > should render correctly 1`] = `
           </h1>
           <p
             class="text-xl text-secondary"
+            data-testid="pageHeaderSubtitle"
           >
             Your friendly web based Geo Explorer 🌍
           </p>
