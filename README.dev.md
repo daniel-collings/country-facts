@@ -3,6 +3,12 @@
 ## Introduction
 The Country Facts web application is a basic single page application which allows users to search for countries and find out more information about them.
 
+## Getting Started
+To see the live application goto: [Country Facts](https://daniel-collings.github.io/country-facts/) hosted on GitHub Pages.
+For getting the application running locally assuming the repo is cloned and you're in the root of the project:
+1. `npm install`
+2. `npm run dev`
+
 ## Features
 - Dynamic searching of countries
 - 'Did you mean?' view to navigate to the correct page when one of more results are returned.
@@ -25,8 +31,12 @@ There are several areas that require further development to improvement this pro
 - DynamicDataView.tsx - this component requires time to build up a bespoke library of components that perfectly illustrate the data for each data type.
 - Internationalisation - with the nature of Country Facts being a geo-explorer, it would be beneficial to have internationalisation across the web app.
 - Testing - reflect on current testing and increase testing specifically around behaviour driven and integration tests.
-- Refactor the components used within `routes/countries.tsx` to not have the `LayoutWithNav` wrapper.
+- Refactor the components used within `/src/routes/countries.tsx` to not have the `LayoutWithNav` wrapper.
 - Reflect upon the components built so for an look for optimising code reuse.
 - Consider whether to debounce state updates on `/#/countries`.
 - Bug found with `Netherlands`, will always go to 'Did you mean' page as there's a country called `Caribbean Netherlands`. Need to look at resolving this.
 - Show current time and weather of the country.
+- Introduce caching 
+
+## Notes
+This project will continue to be developed as I come up with new ideas for the project.
