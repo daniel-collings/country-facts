@@ -29,3 +29,4 @@ There are several areas that require further development to improvement this pro
 - Reflect upon the components built so for an look for optimising code reuse.
 - Consider whether to debounce state updates on `/#/countries`.
 - Bug found with `Netherlands`, will always go to 'Did you mean' page as there's a country called `Caribbean Netherlands`. Need to look at resolving this.
+- Show current time and weather of the country.
