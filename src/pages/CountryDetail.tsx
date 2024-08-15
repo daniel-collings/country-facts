@@ -9,6 +9,8 @@ import PopulationCapacityFact from '@/features/PopulationCapacityFact.tsx'
 import CountryAreaFact from '@/features/CountryAreaFact.tsx'
 import BasicDataDisplay from '@/components/BasicDataDisplay.tsx'
 import ImageCard from '@/components/ImageCard.tsx'
+import ErrorDisplay from '@/components/ErrorDisplay.tsx'
+import LoadingSpinner from '@/components/LoadingSpinner.tsx'
 
 const excludeDetailsList = [
   'name',
@@ -24,14 +26,16 @@ export default function CountryDetail() {
     []
   )
 
-  const { data, isLoading } = useQuery({
+  const { data, isLoading, isError, error } = useQuery({
     queryKey: ['countryId', countryId],
     queryFn: async (): Promise<Record<string, unknown>[] | null> => {
       if (countryId) return await fetchCountries(countryId)
       return null
     }
   })
-  if (isLoading) return <div className="loading-bars loading-lg"></div>
+
+  if (!isLoading) return <LoadingSpinner />
+  else if (isError) return <ErrorDisplay error={error} />
 
   if (
     Array.isArray(data) &&
@@ -108,7 +112,10 @@ export default function CountryDetail() {
             alt={`${data[0].name.common} flag`}
           />
           <div className="space-y-4">
-            <BasicDataDisplay data={data[0].capital} label="Capital" />
+            <BasicDataDisplay
+              data={data[0].capital as string | string[]}
+              label="Capital"
+            />
             {data[0].population && (
               <PopulationCapacityFact
                 population={data[0].population as number}

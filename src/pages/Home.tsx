@@ -4,6 +4,8 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { fetchCountries } from '@/services/countries.ts'
 import PageHeader from '@/components/PageHeader.tsx'
+import ErrorDisplay from '@/components/ErrorDisplay.tsx'
+import LoadingSpinner from '@/components/LoadingSpinner.tsx'
 
 export default function Home() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -28,6 +30,9 @@ export default function Home() {
   const handleSearch = (value: string) => {
     setSearchParams({ searchQuery: value })
   }
+
+  if (isLoading) return <LoadingSpinner />
+  else if (isError) return <ErrorDisplay error={error} />
 
   return (
     <div>
