@@ -53,9 +53,6 @@ export default function Home() {
         </p>
         <CountrySearchForm searchValue={searchValue} onSubmit={handleSearch} />
 
-        {isLoading && <div className="loading-bars loading-lg" />}
-        {isError && <p>{(error as Error).message}</p>}
-
         {Array.isArray(data) && data.length > 0 && (
           <div className="block h-96 overflow-auto border-b border-base-content">
             <table className="table table-sm table-pin-rows">
