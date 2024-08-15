@@ -1,10 +1,10 @@
-import { InputHTMLAttributes } from 'react'
+import { InputHTMLAttributes, ReactNode } from 'react'
 
 interface IInputWithActionButton extends InputHTMLAttributes<HTMLInputElement> {
   inputSize?: 'sm' | 'md' | 'lg'
   button: {
     label: string
-    icon: React.SVGProps<SVGSVGElement>
+    icon: ReactNode
     theme: 'btn-primary' | 'btn-secondary' | 'btn-accent'
   }
 }
