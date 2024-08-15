@@ -2,7 +2,7 @@ import React from 'react'
 
 interface IBasicObjectInfoProps {
   label: string
-  obj: Record<string, any>[]
+  obj: Record<string, unknown>[]
 }
 
 export default function BasicObjectInfo({ label, obj }: IBasicObjectInfoProps) {
