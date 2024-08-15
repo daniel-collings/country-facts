@@ -3,7 +3,21 @@ import { useQuery } from '@tanstack/react-query'
 import { fetchCountries } from '@/services/countries.ts'
 import { useState } from 'react'
 import PageHeader from '@/components/PageHeader.tsx'
+import CardFrame from '@/components/CardFrame.tsx'
+import DynamicDataView from '@/features/DynamicDataView.tsx'
+import PopulationCapacityFact from '@/features/PopulationCapacityFact.tsx'
+import CountryAreaFact from '@/features/CountryAreaFact.tsx'
+import BasicDataDisplay from '@/components/BasicDataDisplay.tsx'
+import ImageCard from '@/components/ImageCard.tsx'
 
+const excludeDetailsList = [
+  'name',
+  'coatOfArms',
+  'population',
+  'area',
+  'flags',
+  'flag'
+]
 export default function CountryDetail() {
   const { countryId } = useParams()
   const [viewableFields, setViewableFields] = useState<Record<string, true>[]>(
@@ -12,15 +26,39 @@ export default function CountryDetail() {
 
   const { data, isLoading } = useQuery({
     queryKey: ['countryId', countryId],
-    queryFn: (): Promise<Record<string, unknown>[]> => {
-      if (countryId) return fetchCountries(countryId)
+    queryFn: async (): Promise<Record<string, unknown>[] | null> => {
+      if (countryId) return await fetchCountries(countryId)
+      return null
     }
   })
-
   if (isLoading) return <div className="loading-bars loading-lg"></div>
 
-  if (Array.isArray(data) && data.length > 1) {
-    return <div>{JSON.stringify(data)}</div>
+  if (
+    Array.isArray(data) &&
+    data.length > 1 &&
+    countryId !== data[0].name.common
+  ) {
+    return (
+      <div>
+        <CardFrame>
+          <div className="space-y-4">
+            <PageHeader title="Multiple Matches" />
+            <p>Did you mean?</p>
+            <ul>
+              {data.map((country, index) => (
+                <li key={index} className="hover:underline text-primary">
+                  <a
+                    href={`#/countries/${encodeURIComponent(country.name.common)}`}
+                  >
+                    {country.name.common}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </CardFrame>
+      </div>
+    )
   } else if (!data || !countryId) {
     return <div>Data is undefined</div>
   }
@@ -40,65 +78,52 @@ export default function CountryDetail() {
           <label className="w-full grow">
             Select what information you want to see about {countryId}
           </label>
-          {Object.keys(data[0]).map((field) => (
-            <label
-              key={field}
-              htmlFor={field}
-              className="flex justify-start gap-2"
-            >
-              <input
-                type="checkbox"
-                onChange={(e) =>
-                  setViewableFields((prev) => ({
-                    ...prev,
-                    [field]: e.target.checked
-                  }))
-                }
-              />{' '}
-              {field}
-            </label>
-          ))}
+          {Object.keys(data[0])
+            .filter((f) => !excludeDetailsList.includes(f))
+            .map((field) => (
+              <label
+                key={field}
+                htmlFor={field}
+                className="flex justify-start gap-2"
+              >
+                <input
+                  type="checkbox"
+                  onChange={(e) =>
+                    setViewableFields((prev) => ({
+                      ...prev,
+                      [field]: e.target.checked
+                    }))
+                  }
+                />{' '}
+                {field}
+              </label>
+            ))}
         </div>
       </div>
 
-      {Object.keys(viewableFields).length > 0 ? (
-        <div className="flex flex-wrap gap-4">
-          {Object.keys(viewableFields)
-            .filter((key) => viewableFields[key])
-            .map((field, i) => {
-              console.log(data[0][field])
-              if (typeof data[0][field] === 'string') {
-                return (
-                  <div key={i} className="bg-base-200 rounded-xl p-8">
-                    <div className="flex flex-col flex-wrap items-center text-center gap-4">
-                      <b>{field}</b>
-                      {data?.[0][field]}
-                    </div>
-                  </div>
-                )
-              } else if (Array.isArray(data[0][field])) {
-                return (
-                  <div key={i} className="bg-base-200 rounded-xl p-8">
-                    <div className="flex flex-col flex-wrap gap-4">
-                      {data?.[0][field].map((info, i) => (
-                        <div key={i} className="bg-base-300 rounded-xl p-8">
-                          {info}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )
-              }
-              return (
-                <div key={i} className="bg-base-200 rounded-xl p-8">
-                  <div className="flex flex-col flex-wrap gap-4">
-                    {JSON.stringify(data?.[0][field])}
-                  </div>
-                </div>
-              )
-            })}
+      <CardFrame>
+        <div className="flex flex-wrap items-center justify-evenly gap-4">
+          <ImageCard
+            png={data[0].flags.png}
+            alt={`${data[0].name.common} flag`}
+          />
+          <div className="space-y-4">
+            <BasicDataDisplay data={data[0].capital} label="Capital" />
+            {data[0].population && (
+              <PopulationCapacityFact
+                population={data[0].population as number}
+              />
+            )}
+            {data[0].area && <CountryAreaFact area={data[0].area as number} />}
+          </div>
+          <ImageCard
+            png={data[0].coatOfArms.png}
+            alt={`${data[0].name.common} coat of arms`}
+          />
         </div>
-      ) : null}
+      </CardFrame>
+
+      <DynamicDataView data={data[0]} viewableFields={viewableFields} />
     </div>
   )
 }
