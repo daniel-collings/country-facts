@@ -27,7 +27,7 @@ There are several areas that require further development to improvement this pro
 - Error handling - increased error handling to ensure a smooth UX throughout the users use would be beneficial.
 - Cookie Consent - being able to store information on the clients device could be beneficial in improving the UX such as with the theme context suggested improvement.
 - Google Analytics (GA) - integration of GA to see how the user journey through the web app could be improved.
-- Theme - DaisyUI has been used as the theming for the project but to give the users a better experience the project would benefit from a theme context provider to switch from light to dark mode for example.
+~~- Theme - DaisyUI has been used as the theming for the project but to give the users a better experience the project would benefit from a theme context provider to switch from light to dark mode for example.~~
 - DynamicDataView.tsx - this component requires time to build up a bespoke library of components that perfectly illustrate the data for each data type.
 - Internationalisation - with the nature of Country Facts being a geo-explorer, it would be beneficial to have internationalisation across the web app.
 - Testing - reflect on current testing and increase testing specifically around behaviour driven and integration tests.
@@ -36,7 +36,7 @@ There are several areas that require further development to improvement this pro
 - Consider whether to debounce state updates on `/#/countries`.
 - Bug found with `Netherlands`, will always go to 'Did you mean' page as there's a country called `Caribbean Netherlands`. Need to look at resolving this.
 - Show current time and weather of the country.
-- Introduce caching 
+- Introduce caching. 
 
 ## Notes
 This project will continue to be developed as I come up with new ideas for the project.
