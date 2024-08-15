@@ -7,8 +7,8 @@ import BasicKeyValueInfo from '@/components/BasicKeyValueInfo.tsx'
 import GoogleMapLink from '@/components/GoogleMapsLink.tsx'
 
 interface IDynamicDataViewProps {
-  data: Record<string, any>
-  viewableFields: Record<string, any>
+  data: Record<string, unknown>
+  viewableFields: Record<string, unknown>
 }
 export default function DynamicDataView({
   data,
