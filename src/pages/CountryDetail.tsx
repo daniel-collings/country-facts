@@ -34,7 +34,7 @@ export default function CountryDetail() {
     }
   })
 
-  if (!isLoading) return <LoadingSpinner />
+  if (isLoading) return <LoadingSpinner />
   else if (isError) return <ErrorDisplay error={error} />
 
   if (
