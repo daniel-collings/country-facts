@@ -38,7 +38,10 @@ There are several areas that require further development to improvement this pro
 - Consider whether to debounce state updates on `/#/countries`.
 - Bug found with `Netherlands`, will always go to 'Did you mean' page as there's a country called `Caribbean Netherlands`. Need to look at resolving this.
 - Show current time and weather of the country.
-- Introduce caching beyond TanStack Query i.e. Redis or backend server. 
+- Introduce caching beyond TanStack Query i.e. Redis or backend server.
+- For further professional development, develop a API gateway to have further control over the data being served to the client.
+- Dockerise the web application to increase scalability.
+- Deploy to AWS.
 
 ## Notes
 This project will continue to be developed as I come up with new ideas for the project.
