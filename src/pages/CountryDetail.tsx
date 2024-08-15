@@ -31,7 +31,9 @@ export default function CountryDetail() {
     queryFn: async (): Promise<Record<string, unknown>[] | null> => {
       if (countryId) return await fetchCountries(countryId)
       return null
-    }
+    },
+    retry: 2,
+    retryDelay: 2000
   })
 
   if (isLoading) return <LoadingSpinner />
