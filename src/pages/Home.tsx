@@ -4,6 +4,8 @@ import { Link, useSearchParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { fetchCountries } from '@/services/countries.ts'
 import PageHeader from '@/components/PageHeader.tsx'
+import ErrorDisplay from '@/components/ErrorDisplay.tsx'
+import LoadingSpinner from '@/components/LoadingSpinner.tsx'
 
 export default function Home() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -15,7 +17,9 @@ export default function Home() {
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ['countries', searchValue],
     queryFn: () => fetchCountries(searchValue),
-    enabled: searchValue.trim() !== ''
+    enabled: searchValue.trim() !== '',
+    retry: 2,
+    retryDelay: 2000
   })
 
   useEffect(() => {
@@ -28,6 +32,9 @@ export default function Home() {
   const handleSearch = (value: string) => {
     setSearchParams({ searchQuery: value })
   }
+
+  if (isLoading) return <LoadingSpinner />
+  else if (isError) return <ErrorDisplay error={error} />
 
   return (
     <div>
@@ -45,9 +52,6 @@ export default function Home() {
           and even by emoji flags! 🇳🇵 .
         </p>
         <CountrySearchForm searchValue={searchValue} onSubmit={handleSearch} />
-
-        {isLoading && <div className="loading-bars loading-lg" />}
-        {isError && <p>{(error as Error).message}</p>}
 
         {Array.isArray(data) && data.length > 0 && (
           <div className="block h-96 overflow-auto border-b border-base-content">
