@@ -123,10 +123,12 @@ export default function CountryDetail() {
             )}
             {data[0].area && <CountryAreaFact area={data[0].area as number} />}
           </div>
-          <ImageCard
-            png={data[0].coatOfArms.png}
-            alt={`${data[0].name.common} coat of arms`}
-          />
+          {data[0]?.coatOfArms?.png && (
+            <ImageCard
+              png={data[0].coatOfArms.png}
+              alt={`${data[0].name.common} coat of arms`}
+            />
+          )}
         </div>
       </CardFrame>
 
