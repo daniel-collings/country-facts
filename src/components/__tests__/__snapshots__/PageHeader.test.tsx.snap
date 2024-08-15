@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`PageHeader Component > should render correctly 1`] = `
+exports[`PageHeader Component > should render component correctly 1`] = `
 <DocumentFragment>
   <div
     class="h-full min-h-screen bg-base-100 p-4 sm:p-8"
