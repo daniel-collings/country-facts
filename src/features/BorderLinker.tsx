@@ -10,14 +10,13 @@ const BorderLinker = ({ borders }: { borders: string[] }) => {
     setIsLoading(true)
     try {
       const data = await fetchCountryByCode(code)
-      console.log(data)
-      if (data && data.name && data.name.common) {
+      if (data?.name?.common) {
         navigate(`/countries/${encodeURIComponent(data.name.common)}`)
       } else {
         console.error('Invalid data structure:', data)
       }
     } catch (error) {
-      console.error('Error fetching country data:', error)
+      console.error(`Error whilst fetching ${code} country data:`, error)
     } finally {
       setIsLoading(false)
     }
@@ -28,12 +27,16 @@ const BorderLinker = ({ borders }: { borders: string[] }) => {
       <span className="font-bold">Borders</span>
       <ul className="list-disc text-start">
         {borders.map((item, index) => (
-          <li
-            key={index}
-            onClick={() => !isLoading && handleBorderClick(item)}
-            className={`cursor-pointer hover:underline text-primary ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
-          >
-            {item}
+          <li key={index}>
+            <button
+              onClick={() => !isLoading && handleBorderClick(item)}
+              disabled={isLoading}
+              className={`w-full text-left cursor-pointer hover:underline text-primary ${
+                isLoading ? 'opacity-50 cursor-not-allowed' : ''
+              }`}
+            >
+              {item}
+            </button>
           </li>
         ))}
       </ul>
