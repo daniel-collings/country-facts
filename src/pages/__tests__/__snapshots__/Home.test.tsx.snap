@@ -1,0 +1,91 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Home Component > should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="h-full min-h-screen bg-base-100 p-4 sm:p-8"
+    data-theme="dark"
+  >
+    <main
+      class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
+    >
+      <div>
+        <div
+          class="p-8"
+        >
+          <h1
+            class="text-4xl font-bold text-primaryy"
+          >
+            Country Facts
+          </h1>
+          <p
+            class="text-xl text-secondary"
+            data-testid="pageHeaderSubtitle"
+          >
+            Your friendly web based Geo Explorer 🌍
+          </p>
+        </div>
+        <div
+          class="space-y-4 bg-base-200 rounded-xl p-8"
+        >
+          <p>
+            Search for a specific country believe or browse 
+            <a
+              class="underline text-primary"
+              href="/countries"
+            >
+              all countries
+            </a>
+             with smart filtering on country common name, official name, continent and even by emoji flags! 🇳🇵 .
+          </p>
+          <form
+            class="grid grid-flow-row max-w-96 gap-4"
+            id="country-search-form"
+          >
+            <label
+              class="input input-sm contents sm:flex sm:input-md input-bordered justify-between items-center pr-0 sm:pr-0"
+            >
+              <input
+                minlength="3"
+                name="countrySearch"
+                placeholder="Search..."
+                required=""
+                type="text"
+                value=""
+              />
+              <button
+                class="btn btn-sm sm:btn-md btn-primary "
+                type="submit"
+              >
+                Search
+                <div
+                  class="hidden sm:block"
+                >
+                   
+                  <svg
+                    aria-hidden="true"
+                    class="h-8 w-8"
+                    data-slot="icon"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.25 10.875a2.625 2.625 0 1 1 5.25 0 2.625 2.625 0 0 1-5.25 0Z"
+                    />
+                    <path
+                      clip-rule="evenodd"
+                      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.125 4.5a4.125 4.125 0 1 0 2.338 7.524l2.007 2.006a.75.75 0 1 0 1.06-1.06l-2.006-2.007a4.125 4.125 0 0 0-3.399-6.463Z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </label>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;
