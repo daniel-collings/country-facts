@@ -6,6 +6,7 @@ import { fetchCountries } from '@/services/countries.ts'
 import PageHeader from '@/components/PageHeader.tsx'
 import ErrorDisplay from '@/components/ErrorDisplay.tsx'
 import LoadingSpinner from '@/components/LoadingSpinner.tsx'
+import NotFound from '@/pages/NotFound.tsx'
 
 export default function Home() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -53,6 +54,7 @@ export default function Home() {
 
         {isLoading && <div className="loading-bars loading-lg" />}
         {isError && <p>{(error as Error).message}</p>}
+        {data?.status === 404 && <NotFound />}
 
         {Array.isArray(data) && data.length > 0 && (
           <div className="block h-96 overflow-auto border-b border-base-content">
