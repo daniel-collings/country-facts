@@ -52,7 +52,6 @@ export default function CountryDetail() {
   } else if (!data || !countryId) {
     return <div>Data is undefined</div>
   }
-
   return (
     <div className="space-y-4">
       <PageHeader
@@ -122,7 +121,9 @@ export default function CountryDetail() {
         </div>
       </CardFrame>
 
-      <DynamicDataView data={[countryData]} viewableFields={viewableFields} />
+      {countryData !== undefined && (
+        <DynamicDataView data={countryData} viewableFields={viewableFields} />
+      )}
     </div>
   )
 }
