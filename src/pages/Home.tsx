@@ -44,7 +44,7 @@ export default function Home() {
       />
       <div className="space-y-4 bg-base-200 rounded-xl p-8">
         <p>
-          Search for a specific country believe or browse{' '}
+          Search for a specific country below or browse{' '}
           <Link to="/countries" className="underline text-primary">
             all countries
           </Link>{' '}

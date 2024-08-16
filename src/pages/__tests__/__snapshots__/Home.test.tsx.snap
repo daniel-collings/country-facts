@@ -29,7 +29,7 @@ exports[`Home Component > should render correctly 1`] = `
           class="space-y-4 bg-base-200 rounded-xl p-8"
         >
           <p>
-            Search for a specific country believe or browse 
+            Search for a specific country below or browse 
             <a
               class="underline text-primary"
               href="/countries"
