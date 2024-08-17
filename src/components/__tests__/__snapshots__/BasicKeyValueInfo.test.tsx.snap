@@ -10,7 +10,7 @@ exports[`BasicKeyValueInfo Component > should render correctly with string value
       class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
     >
       <div
-        class="p-4"
+        class="p-4 grid"
       >
         <span
           class="font-bold"

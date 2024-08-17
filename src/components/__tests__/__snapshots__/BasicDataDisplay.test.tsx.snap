@@ -8,7 +8,28 @@ exports[`BasicDataDisplay Component > should render correctly with string array 
   >
     <main
       class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
-    />
+    >
+      <div
+        class="p-4 grid"
+      >
+        <span
+          class="font-bold"
+        >
+          Capital
+        </span>
+        <ul>
+          <li>
+            Cape Town
+          </li>
+          <li>
+            Pretoria
+          </li>
+          <li>
+            Bloemfontein
+          </li>
+        </ul>
+      </div>
+    </main>
   </div>
 </DocumentFragment>
 `;
@@ -23,7 +44,7 @@ exports[`BasicDataDisplay Component > should render correctly with string value 
       class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
     >
       <div
-        class="p-4"
+        class="p-4 grid"
       >
         <span
           class="font-bold"

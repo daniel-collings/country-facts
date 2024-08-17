@@ -8,7 +8,28 @@ exports[`BasicListInfo Component > should render correctly 1`] = `
   >
     <main
       class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
-    />
+    >
+      <div
+        class="p-4 grid"
+      >
+        <span
+          class="font-bold"
+        >
+          Borders
+        </span>
+        <ul>
+          <li>
+            ESP
+          </li>
+          <li>
+            AND
+          </li>
+          <li>
+            DEU
+          </li>
+        </ul>
+      </div>
+    </main>
   </div>
 </DocumentFragment>
 `;
