@@ -42,6 +42,7 @@ There are several areas that require further development to improvement this pro
 - For further professional development, develop a API gateway to have further control over the data being served to the client.
 - Dockerise the web application to increase scalability.
 - Deploy to AWS.
+- Add DATETIME to CountryDetails.
 
 ## Notes
 This project will continue to be developed as I come up with new ideas for the project.
