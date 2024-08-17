@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BasicKeyValueInfo Component > should render correctly with string value 1`] = `
+<DocumentFragment>
+  <div
+    class="h-full min-h-screen bg-base-100 p-4 sm:p-8"
+    data-theme="light"
+  >
+    <main
+      class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
+    >
+      <div
+        class="p-4 grid"
+      >
+        <span
+          class="font-bold"
+        >
+          Currency
+        </span>
+        <span>
+          £ (Great British Pound)
+        </span>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

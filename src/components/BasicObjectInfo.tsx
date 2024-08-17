@@ -7,7 +7,7 @@ interface IBasicObjectInfoProps {
 
 export default function BasicObjectInfo({ label, obj }: IBasicObjectInfoProps) {
   return (
-    <div className="p-4">
+    <div className="p-4 grid">
       <span className="font-bold">{label}</span>
       <ul className="list-disc text-start">
         {Object.entries(obj).map(([key, value]) => (

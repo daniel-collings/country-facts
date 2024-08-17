@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ErrorDisplay Component > should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="h-full min-h-screen bg-base-100 p-4 sm:p-8"
+    data-theme="light"
+  >
+    <main
+      class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
+    >
+      <div
+        class="alert alert-error"
+        role="alert"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-8 w-8"
+          data-slot="icon"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12ZM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75Zm0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <span>
+          Oops! Something has went wrong. Please try again and if the problem persists then please report.
+        </span>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

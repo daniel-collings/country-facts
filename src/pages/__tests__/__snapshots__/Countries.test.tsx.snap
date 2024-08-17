@@ -1,0 +1,6064 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Countries Page > should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="h-full min-h-screen bg-base-100 p-4 sm:p-8"
+    data-theme="light"
+  >
+    <main
+      class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
+    >
+      <div>
+        <div
+          class="p-8"
+        >
+          <h1
+            class="text-4xl font-bold text-primaryy"
+          >
+            Countries
+          </h1>
+          <p
+            class="text-xl text-secondary"
+            data-testid="pageHeaderSubtitle"
+          >
+            Search by country, continent or even emoji 😄
+          </p>
+        </div>
+        <div
+          class="space-y-4 bg-base-200 rounded-xl p-8"
+        >
+          <input
+            class="input input-bordered"
+            placeholder="Search..."
+            type="text"
+          />
+          <div
+            class="block h-96 overflow-auto border-b border-base-content"
+          >
+            <table
+              class="table table-sm table-pin-rows"
+            >
+              <thead>
+                <tr>
+                  <td>
+                    Country
+                  </td>
+                  <td>
+                    Flag
+                  </td>
+                  <td>
+                    Continent
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/South%20Georgia"
+                    >
+                      South Georgia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/South%20Georgia"
+                    >
+                      🇬🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Antarctica
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Grenada"
+                    >
+                      Grenada 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Grenada"
+                    >
+                      🇬🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Switzerland"
+                    >
+                      Switzerland 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Switzerland"
+                    >
+                      🇨🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Sierra%20Leone"
+                    >
+                      Sierra Leone 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Sierra%20Leone"
+                    >
+                      🇸🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Hungary"
+                    >
+                      Hungary 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Hungary"
+                    >
+                      🇭🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Taiwan"
+                    >
+                      Taiwan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Taiwan"
+                    >
+                      🇹🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Wallis%20and%20Futuna"
+                    >
+                      Wallis and Futuna 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Wallis%20and%20Futuna"
+                    >
+                      🇼🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Barbados"
+                    >
+                      Barbados 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Barbados"
+                    >
+                      🇧🇧 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Pitcairn%20Islands"
+                    >
+                      Pitcairn Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Pitcairn%20Islands"
+                    >
+                      🇵🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Ivory%20Coast"
+                    >
+                      Ivory Coast 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Ivory%20Coast"
+                    >
+                      🇨🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Tunisia"
+                    >
+                      Tunisia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Tunisia"
+                    >
+                      🇹🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Italy"
+                    >
+                      Italy 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Italy"
+                    >
+                      🇮🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Benin"
+                    >
+                      Benin 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Benin"
+                    >
+                      🇧🇯 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Indonesia"
+                    >
+                      Indonesia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Indonesia"
+                    >
+                      🇮🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cape%20Verde"
+                    >
+                      Cape Verde 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cape%20Verde"
+                    >
+                      🇨🇻 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Kitts%20and%20Nevis"
+                    >
+                      Saint Kitts and Nevis 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Kitts%20and%20Nevis"
+                    >
+                      🇰🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Laos"
+                    >
+                      Laos 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Laos"
+                    >
+                      🇱🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Caribbean%20Netherlands"
+                    >
+                      Caribbean Netherlands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Caribbean%20Netherlands"
+                    >
+                      🇧🇶 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Uganda"
+                    >
+                      Uganda 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Uganda"
+                    >
+                      🇺🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Andorra"
+                    >
+                      Andorra 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Andorra"
+                    >
+                      🇦🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Burundi"
+                    >
+                      Burundi 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Burundi"
+                    >
+                      🇧🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/South%20Africa"
+                    >
+                      South Africa 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/South%20Africa"
+                    >
+                      🇿🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/France"
+                    >
+                      France 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/France"
+                    >
+                      🇫🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Libya"
+                    >
+                      Libya 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Libya"
+                    >
+                      🇱🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mexico"
+                    >
+                      Mexico 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mexico"
+                    >
+                      🇲🇽 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Gabon"
+                    >
+                      Gabon 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Gabon"
+                    >
+                      🇬🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Northern%20Mariana%20Islands"
+                    >
+                      Northern Mariana Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Northern%20Mariana%20Islands"
+                    >
+                      🇲🇵 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/North%20Macedonia"
+                    >
+                      North Macedonia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/North%20Macedonia"
+                    >
+                      🇲🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/China"
+                    >
+                      China 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/China"
+                    >
+                      🇨🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Yemen"
+                    >
+                      Yemen 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Yemen"
+                    >
+                      🇾🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Barth%C3%A9lemy"
+                    >
+                      Saint Barthélemy 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Barth%C3%A9lemy"
+                    >
+                      🇧🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guernsey"
+                    >
+                      Guernsey 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guernsey"
+                    >
+                      🇬🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Solomon%20Islands"
+                    >
+                      Solomon Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Solomon%20Islands"
+                    >
+                      🇸🇧 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Svalbard%20and%20Jan%20Mayen"
+                    >
+                      Svalbard and Jan Mayen 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Svalbard%20and%20Jan%20Mayen"
+                    >
+                      🇸🇯 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Faroe%20Islands"
+                    >
+                      Faroe Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Faroe%20Islands"
+                    >
+                      🇫🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Uzbekistan"
+                    >
+                      Uzbekistan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Uzbekistan"
+                    >
+                      🇺🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Egypt"
+                    >
+                      Egypt 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Egypt"
+                    >
+                      🇪🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Senegal"
+                    >
+                      Senegal 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Senegal"
+                    >
+                      🇸🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Sri%20Lanka"
+                    >
+                      Sri Lanka 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Sri%20Lanka"
+                    >
+                      🇱🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Palestine"
+                    >
+                      Palestine 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Palestine"
+                    >
+                      🇵🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bangladesh"
+                    >
+                      Bangladesh 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bangladesh"
+                    >
+                      🇧🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Peru"
+                    >
+                      Peru 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Peru"
+                    >
+                      🇵🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Singapore"
+                    >
+                      Singapore 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Singapore"
+                    >
+                      🇸🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Turkey"
+                    >
+                      Turkey 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Turkey"
+                    >
+                      🇹🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe, Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Afghanistan"
+                    >
+                      Afghanistan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Afghanistan"
+                    >
+                      🇦🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Aruba"
+                    >
+                      Aruba 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Aruba"
+                    >
+                      🇦🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cook%20Islands"
+                    >
+                      Cook Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cook%20Islands"
+                    >
+                      🇨🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/United%20Kingdom"
+                    >
+                      United Kingdom 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/United%20Kingdom"
+                    >
+                      🇬🇧 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Zambia"
+                    >
+                      Zambia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Zambia"
+                    >
+                      🇿🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Finland"
+                    >
+                      Finland 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Finland"
+                    >
+                      🇫🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Niger"
+                    >
+                      Niger 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Niger"
+                    >
+                      🇳🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Christmas%20Island"
+                    >
+                      Christmas Island 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Christmas%20Island"
+                    >
+                      🇨🇽 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Tokelau"
+                    >
+                      Tokelau 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Tokelau"
+                    >
+                      🇹🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guinea-Bissau"
+                    >
+                      Guinea-Bissau 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guinea-Bissau"
+                    >
+                      🇬🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Azerbaijan"
+                    >
+                      Azerbaijan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Azerbaijan"
+                    >
+                      🇦🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe, Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/R%C3%A9union"
+                    >
+                      Réunion 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/R%C3%A9union"
+                    >
+                      🇷🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Djibouti"
+                    >
+                      Djibouti 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Djibouti"
+                    >
+                      🇩🇯 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/North%20Korea"
+                    >
+                      North Korea 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/North%20Korea"
+                    >
+                      🇰🇵 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mauritius"
+                    >
+                      Mauritius 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mauritius"
+                    >
+                      🇲🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Montserrat"
+                    >
+                      Montserrat 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Montserrat"
+                    >
+                      🇲🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/United%20States%20Virgin%20Islands"
+                    >
+                      United States Virgin Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/United%20States%20Virgin%20Islands"
+                    >
+                      🇻🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Colombia"
+                    >
+                      Colombia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Colombia"
+                    >
+                      🇨🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Greece"
+                    >
+                      Greece 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Greece"
+                    >
+                      🇬🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Croatia"
+                    >
+                      Croatia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Croatia"
+                    >
+                      🇭🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Morocco"
+                    >
+                      Morocco 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Morocco"
+                    >
+                      🇲🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Algeria"
+                    >
+                      Algeria 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Algeria"
+                    >
+                      🇩🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Antarctica"
+                    >
+                      Antarctica 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Antarctica"
+                    >
+                      🇦🇶 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Antarctica
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Netherlands"
+                    >
+                      Netherlands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Netherlands"
+                    >
+                      🇳🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Sudan"
+                    >
+                      Sudan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Sudan"
+                    >
+                      🇸🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Fiji"
+                    >
+                      Fiji 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Fiji"
+                    >
+                      🇫🇯 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Liechtenstein"
+                    >
+                      Liechtenstein 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Liechtenstein"
+                    >
+                      🇱🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Nepal"
+                    >
+                      Nepal 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Nepal"
+                    >
+                      🇳🇵 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Puerto%20Rico"
+                    >
+                      Puerto Rico 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Puerto%20Rico"
+                    >
+                      🇵🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Georgia"
+                    >
+                      Georgia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Georgia"
+                    >
+                      🇬🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Pakistan"
+                    >
+                      Pakistan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Pakistan"
+                    >
+                      🇵🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Monaco"
+                    >
+                      Monaco 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Monaco"
+                    >
+                      🇲🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Botswana"
+                    >
+                      Botswana 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Botswana"
+                    >
+                      🇧🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Lebanon"
+                    >
+                      Lebanon 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Lebanon"
+                    >
+                      🇱🇧 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Papua%20New%20Guinea"
+                    >
+                      Papua New Guinea 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Papua%20New%20Guinea"
+                    >
+                      🇵🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mayotte"
+                    >
+                      Mayotte 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mayotte"
+                    >
+                      🇾🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Dominican%20Republic"
+                    >
+                      Dominican Republic 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Dominican%20Republic"
+                    >
+                      🇩🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Norfolk%20Island"
+                    >
+                      Norfolk Island 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Norfolk%20Island"
+                    >
+                      🇳🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bouvet%20Island"
+                    >
+                      Bouvet Island 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bouvet%20Island"
+                    >
+                      🇧🇻 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Antarctica
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Qatar"
+                    >
+                      Qatar 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Qatar"
+                    >
+                      🇶🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Madagascar"
+                    >
+                      Madagascar 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Madagascar"
+                    >
+                      🇲🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/India"
+                    >
+                      India 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/India"
+                    >
+                      🇮🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Syria"
+                    >
+                      Syria 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Syria"
+                    >
+                      🇸🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Montenegro"
+                    >
+                      Montenegro 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Montenegro"
+                    >
+                      🇲🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Eswatini"
+                    >
+                      Eswatini 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Eswatini"
+                    >
+                      🇸🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Paraguay"
+                    >
+                      Paraguay 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Paraguay"
+                    >
+                      🇵🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/El%20Salvador"
+                    >
+                      El Salvador 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/El%20Salvador"
+                    >
+                      🇸🇻 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Ukraine"
+                    >
+                      Ukraine 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Ukraine"
+                    >
+                      🇺🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Isle%20of%20Man"
+                    >
+                      Isle of Man 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Isle%20of%20Man"
+                    >
+                      🇮🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Namibia"
+                    >
+                      Namibia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Namibia"
+                    >
+                      🇳🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/United%20Arab%20Emirates"
+                    >
+                      United Arab Emirates 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/United%20Arab%20Emirates"
+                    >
+                      🇦🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bulgaria"
+                    >
+                      Bulgaria 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bulgaria"
+                    >
+                      🇧🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Greenland"
+                    >
+                      Greenland 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Greenland"
+                    >
+                      🇬🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Germany"
+                    >
+                      Germany 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Germany"
+                    >
+                      🇩🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cambodia"
+                    >
+                      Cambodia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cambodia"
+                    >
+                      🇰🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Iraq"
+                    >
+                      Iraq 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Iraq"
+                    >
+                      🇮🇶 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/French%20Southern%20and%20Antarctic%20Lands"
+                    >
+                      French Southern and Antarctic Lands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/French%20Southern%20and%20Antarctic%20Lands"
+                    >
+                      🇹🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Antarctica
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Sweden"
+                    >
+                      Sweden 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Sweden"
+                    >
+                      🇸🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cuba"
+                    >
+                      Cuba 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cuba"
+                    >
+                      🇨🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Kyrgyzstan"
+                    >
+                      Kyrgyzstan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Kyrgyzstan"
+                    >
+                      🇰🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Russia"
+                    >
+                      Russia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Russia"
+                    >
+                      🇷🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe, Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Malaysia"
+                    >
+                      Malaysia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Malaysia"
+                    >
+                      🇲🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe"
+                    >
+                      São Tomé and Príncipe 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe"
+                    >
+                      🇸🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cyprus"
+                    >
+                      Cyprus 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cyprus"
+                    >
+                      🇨🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Canada"
+                    >
+                      Canada 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Canada"
+                    >
+                      🇨🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Malawi"
+                    >
+                      Malawi 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Malawi"
+                    >
+                      🇲🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saudi%20Arabia"
+                    >
+                      Saudi Arabia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saudi%20Arabia"
+                    >
+                      🇸🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bosnia%20and%20Herzegovina"
+                    >
+                      Bosnia and Herzegovina 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bosnia%20and%20Herzegovina"
+                    >
+                      🇧🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Ethiopia"
+                    >
+                      Ethiopia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Ethiopia"
+                    >
+                      🇪🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Spain"
+                    >
+                      Spain 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Spain"
+                    >
+                      🇪🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Slovenia"
+                    >
+                      Slovenia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Slovenia"
+                    >
+                      🇸🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Oman"
+                    >
+                      Oman 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Oman"
+                    >
+                      🇴🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Pierre%20and%20Miquelon"
+                    >
+                      Saint Pierre and Miquelon 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Pierre%20and%20Miquelon"
+                    >
+                      🇵🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Macau"
+                    >
+                      Macau 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Macau"
+                    >
+                      🇲🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/San%20Marino"
+                    >
+                      San Marino 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/San%20Marino"
+                    >
+                      🇸🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Lesotho"
+                    >
+                      Lesotho 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Lesotho"
+                    >
+                      🇱🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Marshall%20Islands"
+                    >
+                      Marshall Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Marshall%20Islands"
+                    >
+                      🇲🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Sint%20Maarten"
+                    >
+                      Sint Maarten 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Sint%20Maarten"
+                    >
+                      🇸🇽 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Iceland"
+                    >
+                      Iceland 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Iceland"
+                    >
+                      🇮🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Luxembourg"
+                    >
+                      Luxembourg 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Luxembourg"
+                    >
+                      🇱🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Argentina"
+                    >
+                      Argentina 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Argentina"
+                    >
+                      🇦🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Turks%20and%20Caicos%20Islands"
+                    >
+                      Turks and Caicos Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Turks%20and%20Caicos%20Islands"
+                    >
+                      🇹🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Nauru"
+                    >
+                      Nauru 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Nauru"
+                    >
+                      🇳🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cocos%20(Keeling)%20Islands"
+                    >
+                      Cocos (Keeling) Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cocos%20(Keeling)%20Islands"
+                    >
+                      🇨🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Western%20Sahara"
+                    >
+                      Western Sahara 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Western%20Sahara"
+                    >
+                      🇪🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Dominica"
+                    >
+                      Dominica 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Dominica"
+                    >
+                      🇩🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Costa%20Rica"
+                    >
+                      Costa Rica 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Costa%20Rica"
+                    >
+                      🇨🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Australia"
+                    >
+                      Australia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Australia"
+                    >
+                      🇦🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Thailand"
+                    >
+                      Thailand 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Thailand"
+                    >
+                      🇹🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Haiti"
+                    >
+                      Haiti 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Haiti"
+                    >
+                      🇭🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Tuvalu"
+                    >
+                      Tuvalu 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Tuvalu"
+                    >
+                      🇹🇻 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Honduras"
+                    >
+                      Honduras 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Honduras"
+                    >
+                      🇭🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Equatorial%20Guinea"
+                    >
+                      Equatorial Guinea 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Equatorial%20Guinea"
+                    >
+                      🇬🇶 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Lucia"
+                    >
+                      Saint Lucia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Lucia"
+                    >
+                      🇱🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/French%20Polynesia"
+                    >
+                      French Polynesia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/French%20Polynesia"
+                    >
+                      🇵🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Belarus"
+                    >
+                      Belarus 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Belarus"
+                    >
+                      🇧🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Latvia"
+                    >
+                      Latvia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Latvia"
+                    >
+                      🇱🇻 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Palau"
+                    >
+                      Palau 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Palau"
+                    >
+                      🇵🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guadeloupe"
+                    >
+                      Guadeloupe 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guadeloupe"
+                    >
+                      🇬🇵 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Philippines"
+                    >
+                      Philippines 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Philippines"
+                    >
+                      🇵🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Gibraltar"
+                    >
+                      Gibraltar 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Gibraltar"
+                    >
+                      🇬🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Denmark"
+                    >
+                      Denmark 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Denmark"
+                    >
+                      🇩🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cameroon"
+                    >
+                      Cameroon 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cameroon"
+                    >
+                      🇨🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guinea"
+                    >
+                      Guinea 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guinea"
+                    >
+                      🇬🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bahrain"
+                    >
+                      Bahrain 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bahrain"
+                    >
+                      🇧🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Suriname"
+                    >
+                      Suriname 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Suriname"
+                    >
+                      🇸🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/DR%20Congo"
+                    >
+                      DR Congo 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/DR%20Congo"
+                    >
+                      🇨🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Somalia"
+                    >
+                      Somalia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Somalia"
+                    >
+                      🇸🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Czechia"
+                    >
+                      Czechia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Czechia"
+                    >
+                      🇨🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/New%20Caledonia"
+                    >
+                      New Caledonia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/New%20Caledonia"
+                    >
+                      🇳🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Vanuatu"
+                    >
+                      Vanuatu 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Vanuatu"
+                    >
+                      🇻🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Helena%2C%20Ascension%20and%20Tristan%20da%20Cunha"
+                    >
+                      Saint Helena, Ascension and Tristan da Cunha 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Helena%2C%20Ascension%20and%20Tristan%20da%20Cunha"
+                    >
+                      🇸🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Togo"
+                    >
+                      Togo 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Togo"
+                    >
+                      🇹🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/British%20Virgin%20Islands"
+                    >
+                      British Virgin Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/British%20Virgin%20Islands"
+                    >
+                      🇻🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Kenya"
+                    >
+                      Kenya 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Kenya"
+                    >
+                      🇰🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Niue"
+                    >
+                      Niue 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Niue"
+                    >
+                      🇳🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Heard%20Island%20and%20McDonald%20Islands"
+                    >
+                      Heard Island and McDonald Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Heard%20Island%20and%20McDonald%20Islands"
+                    >
+                      🇭🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Antarctica
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Rwanda"
+                    >
+                      Rwanda 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Rwanda"
+                    >
+                      🇷🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Estonia"
+                    >
+                      Estonia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Estonia"
+                    >
+                      🇪🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Romania"
+                    >
+                      Romania 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Romania"
+                    >
+                      🇷🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Trinidad%20and%20Tobago"
+                    >
+                      Trinidad and Tobago 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Trinidad%20and%20Tobago"
+                    >
+                      🇹🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guyana"
+                    >
+                      Guyana 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guyana"
+                    >
+                      🇬🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Timor-Leste"
+                    >
+                      Timor-Leste 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Timor-Leste"
+                    >
+                      🇹🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Vietnam"
+                    >
+                      Vietnam 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Vietnam"
+                    >
+                      🇻🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Uruguay"
+                    >
+                      Uruguay 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Uruguay"
+                    >
+                      🇺🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Vatican%20City"
+                    >
+                      Vatican City 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Vatican%20City"
+                    >
+                      🇻🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Hong%20Kong"
+                    >
+                      Hong Kong 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Hong%20Kong"
+                    >
+                      🇭🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Austria"
+                    >
+                      Austria 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Austria"
+                    >
+                      🇦🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Antigua%20and%20Barbuda"
+                    >
+                      Antigua and Barbuda 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Antigua%20and%20Barbuda"
+                    >
+                      🇦🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Turkmenistan"
+                    >
+                      Turkmenistan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Turkmenistan"
+                    >
+                      🇹🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mozambique"
+                    >
+                      Mozambique 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mozambique"
+                    >
+                      🇲🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Panama"
+                    >
+                      Panama 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Panama"
+                    >
+                      🇵🇦 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Micronesia"
+                    >
+                      Micronesia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Micronesia"
+                    >
+                      🇫🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Ireland"
+                    >
+                      Ireland 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Ireland"
+                    >
+                      🇮🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cura%C3%A7ao"
+                    >
+                      Curaçao 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cura%C3%A7ao"
+                    >
+                      🇨🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/French%20Guiana"
+                    >
+                      French Guiana 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/French%20Guiana"
+                    >
+                      🇬🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Norway"
+                    >
+                      Norway 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Norway"
+                    >
+                      🇳🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/%C3%85land%20Islands"
+                    >
+                      Åland Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/%C3%85land%20Islands"
+                    >
+                      🇦🇽 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Central%20African%20Republic"
+                    >
+                      Central African Republic 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Central%20African%20Republic"
+                    >
+                      🇨🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Burkina%20Faso"
+                    >
+                      Burkina Faso 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Burkina%20Faso"
+                    >
+                      🇧🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Eritrea"
+                    >
+                      Eritrea 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Eritrea"
+                    >
+                      🇪🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Tanzania"
+                    >
+                      Tanzania 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Tanzania"
+                    >
+                      🇹🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/South%20Korea"
+                    >
+                      South Korea 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/South%20Korea"
+                    >
+                      🇰🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Jordan"
+                    >
+                      Jordan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Jordan"
+                    >
+                      🇯🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mauritania"
+                    >
+                      Mauritania 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mauritania"
+                    >
+                      🇲🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Lithuania"
+                    >
+                      Lithuania 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Lithuania"
+                    >
+                      🇱🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/United%20States%20Minor%20Outlying%20Islands"
+                    >
+                      United States Minor Outlying Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/United%20States%20Minor%20Outlying%20Islands"
+                    >
+                      🇺🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Slovakia"
+                    >
+                      Slovakia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Slovakia"
+                    >
+                      🇸🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Angola"
+                    >
+                      Angola 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Angola"
+                    >
+                      🇦🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Kazakhstan"
+                    >
+                      Kazakhstan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Kazakhstan"
+                    >
+                      🇰🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Moldova"
+                    >
+                      Moldova 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Moldova"
+                    >
+                      🇲🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mali"
+                    >
+                      Mali 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mali"
+                    >
+                      🇲🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Falkland%20Islands"
+                    >
+                      Falkland Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Falkland%20Islands"
+                    >
+                      🇫🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Armenia"
+                    >
+                      Armenia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Armenia"
+                    >
+                      🇦🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Samoa"
+                    >
+                      Samoa 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Samoa"
+                    >
+                      🇼🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Jersey"
+                    >
+                      Jersey 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Jersey"
+                    >
+                      🇯🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Japan"
+                    >
+                      Japan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Japan"
+                    >
+                      🇯🇵 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bolivia"
+                    >
+                      Bolivia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bolivia"
+                    >
+                      🇧🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Chile"
+                    >
+                      Chile 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Chile"
+                    >
+                      🇨🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/United%20States"
+                    >
+                      United States 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/United%20States"
+                    >
+                      🇺🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Vincent%20and%20the%20Grenadines"
+                    >
+                      Saint Vincent and the Grenadines 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Vincent%20and%20the%20Grenadines"
+                    >
+                      🇻🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bermuda"
+                    >
+                      Bermuda 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bermuda"
+                    >
+                      🇧🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Seychelles"
+                    >
+                      Seychelles 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Seychelles"
+                    >
+                      🇸🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/British%20Indian%20Ocean%20Territory"
+                    >
+                      British Indian Ocean Territory 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/British%20Indian%20Ocean%20Territory"
+                    >
+                      🇮🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guatemala"
+                    >
+                      Guatemala 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guatemala"
+                    >
+                      🇬🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Ecuador"
+                    >
+                      Ecuador 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Ecuador"
+                    >
+                      🇪🇨 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Martinique"
+                    >
+                      Martinique 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Martinique"
+                    >
+                      🇲🇶 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Tajikistan"
+                    >
+                      Tajikistan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Tajikistan"
+                    >
+                      🇹🇯 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Malta"
+                    >
+                      Malta 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Malta"
+                    >
+                      🇲🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Gambia"
+                    >
+                      Gambia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Gambia"
+                    >
+                      🇬🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Nigeria"
+                    >
+                      Nigeria 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Nigeria"
+                    >
+                      🇳🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bahamas"
+                    >
+                      Bahamas 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bahamas"
+                    >
+                      🇧🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Kosovo"
+                    >
+                      Kosovo 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Kosovo"
+                    >
+                      🇽🇰 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Kuwait"
+                    >
+                      Kuwait 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Kuwait"
+                    >
+                      🇰🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Maldives"
+                    >
+                      Maldives 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Maldives"
+                    >
+                      🇲🇻 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/South%20Sudan"
+                    >
+                      South Sudan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/South%20Sudan"
+                    >
+                      🇸🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Iran"
+                    >
+                      Iran 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Iran"
+                    >
+                      🇮🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Albania"
+                    >
+                      Albania 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Albania"
+                    >
+                      🇦🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Brazil"
+                    >
+                      Brazil 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Brazil"
+                    >
+                      🇧🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Serbia"
+                    >
+                      Serbia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Serbia"
+                    >
+                      🇷🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Belize"
+                    >
+                      Belize 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Belize"
+                    >
+                      🇧🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Myanmar"
+                    >
+                      Myanmar 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Myanmar"
+                    >
+                      🇲🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Bhutan"
+                    >
+                      Bhutan 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Bhutan"
+                    >
+                      🇧🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Venezuela"
+                    >
+                      Venezuela 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Venezuela"
+                    >
+                      🇻🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    South America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Liberia"
+                    >
+                      Liberia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Liberia"
+                    >
+                      🇱🇷 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Jamaica"
+                    >
+                      Jamaica 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Jamaica"
+                    >
+                      🇯🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Poland"
+                    >
+                      Poland 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Poland"
+                    >
+                      🇵🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Cayman%20Islands"
+                    >
+                      Cayman Islands 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Cayman%20Islands"
+                    >
+                      🇰🇾 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Brunei"
+                    >
+                      Brunei 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Brunei"
+                    >
+                      🇧🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Comoros"
+                    >
+                      Comoros 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Comoros"
+                    >
+                      🇰🇲 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Guam"
+                    >
+                      Guam 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Guam"
+                    >
+                      🇬🇺 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Tonga"
+                    >
+                      Tonga 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Tonga"
+                    >
+                      🇹🇴 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Kiribati"
+                    >
+                      Kiribati 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Kiribati"
+                    >
+                      🇰🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Ghana"
+                    >
+                      Ghana 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Ghana"
+                    >
+                      🇬🇭 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Chad"
+                    >
+                      Chad 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Chad"
+                    >
+                      🇹🇩 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Zimbabwe"
+                    >
+                      Zimbabwe 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Zimbabwe"
+                    >
+                      🇿🇼 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Saint%20Martin"
+                    >
+                      Saint Martin 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Saint%20Martin"
+                    >
+                      🇲🇫 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Mongolia"
+                    >
+                      Mongolia 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Mongolia"
+                    >
+                      🇲🇳 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Portugal"
+                    >
+                      Portugal 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Portugal"
+                    >
+                      🇵🇹 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/American%20Samoa"
+                    >
+                      American Samoa 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/American%20Samoa"
+                    >
+                      🇦🇸 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Republic%20of%20the%20Congo"
+                    >
+                      Republic of the Congo 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Republic%20of%20the%20Congo"
+                    >
+                      🇨🇬 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Africa
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Belgium"
+                    >
+                      Belgium 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Belgium"
+                    >
+                      🇧🇪 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Europe
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Israel"
+                    >
+                      Israel 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Israel"
+                    >
+                      🇮🇱 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Asia
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/New%20Zealand"
+                    >
+                      New Zealand 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/New%20Zealand"
+                    >
+                      🇳🇿 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    Oceania
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Nicaragua"
+                    >
+                      Nicaragua 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Nicaragua"
+                    >
+                      🇳🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a
+                      class="hover:text-primary hover:underline"
+                      href="/countries/Anguilla"
+                    >
+                      Anguilla 
+                    </a>
+                  </td>
+                  <td
+                    class="text-center sm:text-left"
+                  >
+                    <a
+                      href="/countries/Anguilla"
+                    >
+                      🇦🇮 
+                    </a>
+                  </td>
+                  <td
+                    class="text-wrap"
+                  >
+                    North America
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

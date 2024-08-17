@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ImageCard Component > should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="h-full min-h-screen bg-base-100 p-4 sm:p-8"
+    data-theme="light"
+  >
+    <main
+      class="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8"
+    >
+      <div
+        class="bg-base-300 rounded-xl p-4"
+      >
+        <img
+          alt="vite"
+          class="w-32 h-auto"
+          src="/vite.svg"
+        />
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

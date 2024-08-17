@@ -94,7 +94,7 @@ export default function CountryDetail() {
         <div className="flex flex-wrap items-center justify-evenly gap-4">
           {countryData?.flags?.png && (
             <ImageCard
-              png={countryData?.flags?.png}
+              src={countryData?.flags?.png}
               alt={`${data[0].name.common} flag`}
             />
           )}
@@ -114,7 +114,7 @@ export default function CountryDetail() {
           </div>
           {countryData?.coatOfArms?.png && (
             <ImageCard
-              png={countryData.coatOfArms.png}
+              src={countryData.coatOfArms.png}
               alt={`${countryData.name.common} coat of arms`}
             />
           )}
