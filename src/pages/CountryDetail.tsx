@@ -98,7 +98,7 @@ export default function CountryDetail() {
               alt={`${data[0].name.common} flag`}
             />
           )}
-          <div className="space-y-4">
+          <div>
             <BasicDataDisplay
               data={countryData?.capital as string | string[]}
               label="Capital"

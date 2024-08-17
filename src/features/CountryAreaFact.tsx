@@ -11,15 +11,13 @@ export default function CountryAreaFact({ area }: { area: number }) {
     areaInSquareMeters / randomAreaForComparison.areaInSquareMeters
   )
   return (
-    <div>
-      <div>
-        <p className="font-bold">Area (sq. meters)</p>
-        <p>{formatNumber(area)}</p>
-        <p>
-          That would take approx {formatNumber(areaCovered)}{' '}
-          {randomAreaForComparison.name} to cover the country.
-        </p>
-      </div>
+    <div className="grid p-4">
+      <p className="font-bold">Area (sq. meters)</p>
+      <p>{formatNumber(area)}</p>
+      <p>
+        That would take approx {formatNumber(areaCovered)}{' '}
+        {randomAreaForComparison.name} to cover the country.
+      </p>
     </div>
   )
 }

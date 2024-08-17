@@ -11,15 +11,13 @@ export default function PopulationCapacityFact({
 }) {
   const venueFillCount = Math.round(population / randomCapacity.capacity)
   return (
-    <div>
-      <div>
-        <p className="font-bold">Population</p>
-        <p>{formatNumber(population)}</p>
-        <p>
-          That's equivalent to filling {randomCapacity.name}{' '}
-          {formatNumber(venueFillCount)} time{venueFillCount !== 1 ? 's' : ''}
-        </p>
-      </div>
+    <div className="grid p-4">
+      <span className="font-bold">Population</span>
+      <p>{formatNumber(population)}</p>
+      <p>
+        That's equivalent to filling {randomCapacity.name}{' '}
+        {formatNumber(venueFillCount)} time{venueFillCount !== 1 ? 's' : ''}
+      </p>
     </div>
   )
 }
