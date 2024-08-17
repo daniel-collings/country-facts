@@ -43,6 +43,7 @@ There are several areas that require further development to improvement this pro
 - Dockerise the web application to increase scalability.
 - Deploy to AWS.
 - Add DATETIME to CountryDetails.
+- Bug found - when viewing a country's detail and a user has several datapoints selected such as 'borders', then click the link through to a bordering country. The exact same datapoints previously selected will be shown except the checkboxes are unchecked.
 
 ## Notes
 This project will continue to be developed as I come up with new ideas for the project.
