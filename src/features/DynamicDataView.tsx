@@ -1,10 +1,9 @@
 import React from 'react'
 import CardFrame from '@/components/CardFrame.tsx'
 import BorderLinker from '@/features/BorderLinker.tsx'
-import BasicListInfo from '@/components/BasicListInfo.tsx'
 import BasicObjectInfo from '@/components/BasicObjectInfo.tsx'
-import BasicKeyValueInfo from '@/components/BasicKeyValueInfo.tsx'
 import GoogleMapLink from '@/components/GoogleMapsLink.tsx'
+import BasicDataDisplay from '@/components/BasicDataDisplay.tsx'
 
 interface IDynamicDataViewProps {
   data: Record<string, unknown>
@@ -26,12 +25,12 @@ export default function DynamicDataView({
       case 'altSpellings':
       case 'timezones':
       case 'continents':
-        return <BasicListInfo label={key} items={value} />
+        return <BasicDataDisplay label={key} data={value} />
       case 'borders':
         return <BorderLinker borders={value} />
 
       default:
-        return <BasicKeyValueInfo label={key} value={JSON.stringify(value)} />
+        return <BasicDataDisplay label={key} data={JSON.stringify(value)} />
     }
   }
 

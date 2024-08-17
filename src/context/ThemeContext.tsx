@@ -6,6 +6,6 @@ interface IThemeContextProps {
   setTheme: (theme: ThemeEnum) => void
 }
 
-export const ThemeContext = createContext<IThemeContextProps | undefined>(
-  undefined
+export const ThemeContext = createContext<IThemeContextProps | ThemeEnum.LIGHT>(
+  ThemeEnum.LIGHT
 )

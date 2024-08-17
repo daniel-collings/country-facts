@@ -1,31 +1,14 @@
+import BasicKeyValueInfo from '@/components/BasicKeyValueInfo.tsx'
+import BasicListInfo from '@/components/BasicListInfo.tsx'
+
 interface IBasicDataDisplay {
   data: string | string[]
   label: string
 }
-export default function Capital({ data, label }: IBasicDataDisplay) {
+export default function BasicDataDisplay({ data, label }: IBasicDataDisplay) {
   if (Array.isArray(data)) {
-    return (
-      <div>
-        <div>
-          <span className="font-bold">{label}</span>
-          <ul>
-            {data.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    )
+    return <BasicListInfo label={label} items={data} />
   }
 
-  return (
-    <div>
-      <div>
-        <p className="font-bold">{label}</p>
-        <ul>
-          <li>{data}</li>
-        </ul>
-      </div>
-    </div>
-  )
+  return <BasicKeyValueInfo label={label} value={data} />
 }
